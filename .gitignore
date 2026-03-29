@@ -8,11 +8,9 @@ db.sqlite3
 #python cache
 __pycache__/
 *.py[cod]
+.pytest_cache
 
 # Coverage reports
 htmlcov/
 .coverage
 *.cover
-
-#playwright
-node_modules
