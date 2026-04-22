@@ -8,3 +8,4 @@ The system is organized into a browser based frontend, a Django backend, a SQLit
 
 The application uses five entities to model its core data. Building represents a physical location and has a one-to-many relationship with Room, meaning each building contains multiple rooms, each storing a room number, capacity, and a foreign key back to its building. User stores authenticated users and relates to three other entities: a user can make many Reservations, give many RoomRatings. Reservation links a user to a room for a specific date, time, and duration, capturing both foreign keys alongside booking details. RoomRating also links a user to a room, storing a score and optional comment.
 
+![Call Sequence Diagram](call_sequence_diagram.png)
